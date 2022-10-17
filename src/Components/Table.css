@@ -1,0 +1,26 @@
+.tr_title{
+   font-size: 25px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    overflow: auto;
+  }
+
+  tr:nth-child(even){background-color: #c3f6ff}
+
+  th{
+    border: solid 3px black;
+  }
+  td{
+    border: solid 1px rgb(108, 106, 106);
+  }
+
+
+  th, td {
+    text-align: center;
+    padding: 5px;
+  }
+  
+  
